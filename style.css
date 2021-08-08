@@ -1,0 +1,126 @@
+
+body{
+  background-color:forestgreen;
+}
+.maincontainer{
+  color:palegreen;
+  text-align:center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+  color:lightgreen;
+  text-align:center;
+}
+.navbar button{
+  box-shadow: 0 8px 16px 0 rgba(14, 13, 13, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer;
+  padding:5px;
+  margin:15px;
+  border-radius:50px;
+  width:150px;
+  height:50px;
+  background-color:rgb(80, 202, 106);
+}
+.subtitle{
+	text-align:center;
+}
+
+/* Index.html Document*/
+
+.intro{
+  text-align:left;
+  padding-left:450px;
+  padding-right:450px;
+	margin: auto;
+	width: fit-content;
+}
+
+/*aboutme.html Document*/
+
+.A-main{
+	margin: auto;
+	width: fit-content;
+}
+.aboutme{
+  text-align:left;
+  float:left;
+  font-size:15px;
+}
+#fav{
+  margin:15px;
+  border:solid;
+  width:340px;
+  text-align:left;
+  float: left;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:15px;
+}
+#para{
+  border:solid;
+  text-align:left;
+  float: left;
+  padding:15px;
+  width:340px;
+}
+#family{
+  border:solid;
+  text-align:left;
+  float:right;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:15px;
+}
+#hobbies{
+  border:solid;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:15px;
+  margin:15px;
+	float:right;
+}
+
+/*Links.html Document*/
+
+.links{
+  text-align:left;
+  
+}
+
+/*pictures.html Document*/
+
+/*.C-main{
+  margin:auto;
+  width: fit-content;
+}*/
+.pictures{
+  border:solid;
+  float:left;
+  width:fit-content;
+  margin:auto;
+}
+
+#mmm{
+  width:10%;
+  height:auto;
+  margin:50px;
+}
+/*
+#pent{
+  width:12.65%;
+  height:auto;
+}
+#bts{
+  width:15.92%;
+  height:auto;
+}
+#sk{
+  width:22.5%;
+  height:auto;
+}
+#hwa{
+  width:20%;
+  height:auto;
+}
+
+*/
