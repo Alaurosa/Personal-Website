@@ -1,86 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Personal-Website-Homework-aboutme.repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <div class="maincontainer">
-      <div class="navbar">
-        <a href="index.html"><button>Home</button></a>
-        <a href="aboutme.html"><button>About Me</button></a>
-        <a href="links.html"><button>Helpful Links</button></a>
-        <a href="pictures.html"><button type="button">Helpful Pictures</button></a>
-        <button type="button">All About Me Quiz</button>
-      </div>
+<head>
+  <title>Personal Website</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <h1 style="padding:20px">Ashley Kim</h1>
+  <!-- link the webpage's stylesheet -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
 
-			<div class="A-main">
+  <!-- link the webpage's JavaScript file -->
+  <script src="script.js"></script>
+</head>
 
-				<div class="aboutme">
-					<h2 class="subtitle">My Favorites</h2>
-					<div>
-						<ul id="fav">
-							<li>Animal: Polar Bear</li>
-							<li>Food: Any type of noodle soup</li>
-							<li>Game: Valorant(currently)</li>
-							<li>Color: Green(if you haven't noticed lol)</li>
-							<li>Drink: Juice</li>
-								<ul>
-									<li>Orange</li>
-									<li>Apple</li>
-									<li>ANY BOBA OMG(if you consider that a juice)</li>
-								</ul>
-							<li>Music Genre: Pop/Lofi</li>
-							<li>Song: Freaks</li>
-							<li>Artist: Jessi, but I Stan Mamamoo ;)</li>
-							<li>Subject: Math</li>
-							<li>Book: Anything actually. I don't have one</li>
-							<li>TV Show: Avatar:The Last Airbender(my bestfriend's, but agreed Mine is How to Train Your Dragon)</li>
-							<li>Movie: The Maze Runner</li>
-						</ul>
-					</div>
-				</div>
+<body>
+  <nav>
+    <ui>
+      <li><a href="index.html"><button>Home</button></a></li>
+      <li><a href="aboutme.html"><button>About Me</button></a></li>
+      <li><a href="portfolio.html"><button type="button">Portfolio</button></a></li>
+    </ui>
+  </nav>
 
-				<div class="aboutme">
-					<h2 class="subtitle">About Me</h2>
-					<p id="para">I am 15 years old and I live in Fremont, California. I am a sophomore at Mission San Jose High School and I was born on June 26, 2005. I was born and raised in California and I've travelled to about 3 foreign countries. My bestfriend's name is Mano and she hates food as well as . My origins start in Alameda, but I moved to Fremont inbetween sixth and seventh grade. I don't have much coding experience, but I hope to learn more through this program as well as helpful books and online classes. </p>
-				</div>
+  <div class="title">
+    <h1>About Me</h1>
+  </div>
+  <main>
 
-				<div class="aboutme">
-					<h2 class="subtitle">My Hobbies</h2>
-					<ol id="hobbies">
-							<li>My ABSOLUTE favorite: ViDEO GAMes</li>
-							<li>Watching ANYTHING AND EVERYTHING</li>
-							<ul>
-								<li>Youtube</li>
-								<li>Netflix</li>
-								<li>Twitch</li>
-								<li>Viki</li>
-							</ul>
-							<li>Reading</li>
-							<li>Soccer</li>
-							<li>Writing</li>
-							<li>Coding</li>
-							<li>Knitting</li>
-					</ol>
-				</div>
-
-        <div class="aboutme">
-					<h2 class="subtitle">My Family</h2>
-						<ul id="family">
-							<li>My Mother: Linda Kim</li>
-							<li>My Father: John Kim</li>
-							<li>My Older Sister: Kaylee Kim</li>
-							<li>My Dog: Fluffy</li>
-						</ul>
-				</div>
-        
-			</div>
+    <div class="container">
+      <h2 class="subtitle">My Background</h2>
+      <h3 class="text">I am 17 years old and I live in California. I am an uprising senior in High School and I was born
+        on June 26, 2005. I moved cities in California when I was 11. I've travelled to about 3 foreign countries, but
+        never been to Asia even though I'm Asian. I have one dog and his name is Fluffy. I have a decent array of coding
+        knowledge, but am still on the lookout for more experience and opportunities. There is always room to improve
+        and I know I can do that through projects of my own and through leadership opportunities presented to me. I hope
+        to pursue game development and have planned big things for my future. </h3>
     </div>
-  </body>
+
+    <img class="meImage" width=400px, height=auto, src="assets/pictures/ashley1.jpg"
+      alt="A picture of me taken for Technovation at Mission San Jose High School">
+
+    </div>
+  </main>
+  <footer>
+    <section>
+      <article>
+        <h1 class="footerTitle">Contact Me</h1>
+        <div class="form">
+          <div class="textBox">
+            <h2 class="textBoxCaption">Full Name:</h2>
+            <textarea name="fullName" id="fullName" cols="50" rows="1"></textarea>
+          </div>
+          <div class="textBox">
+            <h2 class="textBoxCaption">Email:</h2>
+            <textarea name="email" id="email" cols="50" rows="1"></textarea>
+          </div>
+          <div class="textBox">
+            <h2 class="textBoxCaption">Subject:</h2>
+            <textarea name="subject" id="subject" cols="50" rows="1"></textarea>
+          </div>
+          <div class="textBox">
+            <h2 class="textBoxCaption">Message:</h2>
+            <textarea name="message" id="message" cols="100" rows="10"></textarea>
+          </div>
+          <button class="submit">Submit</button>
+        </div>
+      </article>
+      <article id="socials">
+        <h1 class="footerTitle">Socials</h1>
+        <div class="icons">
+          <a href="https://www.facebook.com/Ash1eyKim/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/ashee.kim/" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/ashley-kim-458777207/" class="fa fa-linkedin"></a>
+        </div>
+      </article>
+    </section>
+
+    <h3 id="warning">The form is not currently working (there is no backend behind the textboxes and submit button. It
+      is mostly there as a placeholder for future plans)</h3>
+    <h4 id="footerCredit">Made by Ashley K @ GWC SIP 2022</h4>
+  </footer>
+</body>
+
 </html>

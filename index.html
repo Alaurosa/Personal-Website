@@ -2,36 +2,101 @@
 <html>
 
 <head>
+  <title>Personal Website</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Personal-Website-Homework.repl.it</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- link the webpage's stylesheet -->
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- link the webpage's JavaScript file -->
+  <script src="script.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <script src="script.js"></script>
-
-  <div class="maincontainer">
-    <div class="navbar">
-      <a href="index.html"><button>Home</button></a>
-      <a href="aboutme.html"><button>About Me</button></a>
-      <a href="links.html"><button>Helpful Links</button></a>
-      <a href="pictures.html"><button type="button">Helpful Pictures</button></a>
-      <a href="quiz.html"><button type="button">All About Me Quiz</button></a>
-    <div>
-
-    <h1 style="padding:20px">My Personal Website</h1>
-
-    <div class="intro">
-      <h2>A Little Introduction:</h2>
-      <p>
-        Hello, my name is Ashley Kim and my dream is to be a coder when I grow up. I've always had a passion for playing video games and that evolved into making games. My end goal is to have enough knowledge to understand and create my own game. I absolutely love anything Asian because I am Asian! I come from both Korean and Chinese heritage, which means GREAT FOOD! 
-      </p>
+  <nav>
+    <ul>
+      <li><a href="index.html"><button>Home</button></a></li>
+      <li><a href="aboutme.html"><button>About Me</button></a></li>
+      <li><a href="portfolio.html"><button type="button">Portfolio</button></a></li>
+    </ul>
+  </nav>
+  <section id="WhoIAmSection">
+    <img class="meImage" src="assets/pictures/Ashley3.jpg" alt="Picture of me on street hehe" height=auto, width=1%>
+    <div class="whoamitext">
+      <h1>Who Am I?</h1>
+      <h2>I am <span id="WhoIAm">Ashley Kim</span></h2>
     </div>
+  </section>
+  <main>
+    <div class="container">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="introduction">
+        <h3 class="text">
+          I'm Ashley and I absolutely hated my name. In the eyes of Middle School me, Ashley was too boring, too common
+          and I wanted to be unique. I thought that a unique name was associated with a unique personality, but this
+          Ashley Kim is very different from other Ashley Kims. The <a
+            href="https://www.verywellfamily.com/ashley-name-meaning-origin-popularity-5182489#:~:text=Ashley%20is%20derived%20from%20the,then%20as%20a%20given%20name.">origin
+            of my name</a> is not only extremely rich, but its associated with a forest of ash trees. Not only do I love
+          trees because they are peaceful, warm, and always there for you to lean on, but I also know that they
+          represent <a href="https://onetreeplanted.org/">something taken for granted by humans</a>, something I felt
+          that I did for my name. I hope to create video games that incorporate trees in some way or form because trees
+          need a voice too.
+          <br><br>
+          To achieve the many dreams I have in the video game industry, I am pursuing game development. I've had a
+          passion for video games since the WII and DS were prominent. This interest evolved into my involvement in PC
+          games. Throughout high school, I was forced away from video games in the interest of my studies, so instead of
+          giving up video games, I decided to make my own. This way, playing video games would be a byproduct of my
+          interest in making them. Though my passion for video games and the creation of them runs deeper than the
+          restrictions placed on me in high school. My interest started at an earlier age when I realized how important
+          video games were to me and my interest in helping others. I have many ideas that I hope to implement, even
+          without the resources or a true plan.
+        </h3>
+      </div>
 
-    <img src="pictures/MEEE.jpg" alt="Picture of me" height=400px, width=550px style="border-style:solid">
+    </div>
+  </main>
+  <footer>
+    <section>
+      <article>
+        <h1 class="footerTitle">Contact Me</h1>
+        <div class="form">
+          <div class="textBox">
+            <h2 class="textBoxCaption">Full Name:</h2>
+            <textarea name="fullName" id="fullName" cols="50" rows="1"></textarea>
+          </div>
+          <div class="textBox">
+            <h2 class="textBoxCaption">Email:</h2>
+            <textarea name="email" id="email" cols="50" rows="1"></textarea>
+          </div>
+          <div class="textBox">
+            <h2 class="textBoxCaption">Subject:</h2>
+            <textarea name="subject" id="subject" cols="50" rows="1"></textarea>
+          </div>
+          <div class="textBox">
+            <h2 class="textBoxCaption">Message:</h2>
+            <textarea name="message" id="message" cols="100" rows="10"></textarea>
+          </div>
+          <button class="submit">Submit</button>
+        </div>
+      </article>
+      <article id="socials">
+        <h1 class="footerTitle">Socials</h1>
+        <div class="icons">
+          <a href="https://www.facebook.com/Ash1eyKim/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/ashee.kim/" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/ashley-kim-458777207/" class="fa fa-linkedin"></a>
+        </div>
+      </article>
+    </section>
 
-  </div>
+    <h3 id="warning">The form is not currently working (there is no backend behind the textboxes and submit button. It
+      is mostly there as a placeholder for future plans)</h3>
+    <h4 id="footerCredit">Made by Ashley K @ GWC SIP 2022</h4>
+  </footer>
 </body>
 
 </html>
